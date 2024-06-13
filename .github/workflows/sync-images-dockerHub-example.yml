@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://pandoc/core:latest docker://registry.cn-hangzhou.aliyuncs.com/gengyusheng@hotmail.com/pandoc/core:latest
+        skopeo copy docker://pandoc/core:latest docker://registry.cn-hangzhou.aliyuncs.com/rainsondocker/rainsonhub/pandoc/core:latest
  
